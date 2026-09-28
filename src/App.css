@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  width: 50%;
+  margin-right: 10px;
+}
+
+select {
+  padding: 10px;
+}
+
+.club-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+.no-clubs {
+  color: red;
+}
+
+.details {
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
